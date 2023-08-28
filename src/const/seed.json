@@ -1,0 +1,1952 @@
+[
+  {
+    "table": [
+      {
+        "id": "2c6f3dde-0bb3-4531-ac67-51619a33e282",
+        "number": 86901,
+        "capacity": 55591,
+        "status": "Occupied",
+        "created_at": "2023-08-27T13:31:44.297Z",
+        "updated_at": "2023-08-28T06:10:32.485Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "1f7170ad-9945-45f7-afd5-5761660d5cea",
+        "number": 41167,
+        "capacity": 54450,
+        "status": "Available",
+        "created_at": "2023-08-28T07:49:45.321Z",
+        "updated_at": "2023-08-27T17:36:34.994Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "7ffb9d18-524c-4f99-9c44-59418dd9bcd2",
+        "number": 10879,
+        "capacity": 13947,
+        "status": "Reserved",
+        "created_at": "2023-08-27T18:16:56.593Z",
+        "updated_at": "2023-08-27T15:01:48.540Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "ee52f423-5e9f-4a7a-b4de-842ee3f6a698",
+        "number": 20620,
+        "capacity": 29236,
+        "status": "Cleaning",
+        "created_at": "2023-08-27T22:32:04.743Z",
+        "updated_at": "2023-08-28T02:12:17.474Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "74b100ad-369f-4fa9-9db1-887c11ffc2da",
+        "number": 90124,
+        "capacity": 31433,
+        "status": "Out of Order",
+        "created_at": "2023-08-27T19:51:45.778Z",
+        "updated_at": "2023-08-27T21:27:26.769Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "488eb6d6-bf37-40fd-bcea-97046362769a",
+        "date": "2023-08-27T23:36:28.751Z",
+        "time": "2023-08-28T03:59:36.035Z",
+        "guest_count": 57878,
+        "created_at": "2023-08-27T13:32:36.699Z",
+        "updated_at": "2023-08-28T08:10:42.344Z",
+        "table_id": "ee52f423-5e9f-4a7a-b4de-842ee3f6a698",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "33453511-cf26-4aba-b18e-9cbedbebefbe",
+        "date": "2023-08-28T08:58:38.768Z",
+        "time": "2023-08-28T05:37:29.336Z",
+        "guest_count": 10029,
+        "created_at": "2023-08-28T01:57:49.522Z",
+        "updated_at": "2023-08-27T19:31:29.954Z",
+        "table_id": "74b100ad-369f-4fa9-9db1-887c11ffc2da",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b44e224f-9a47-46eb-b3b9-1c40332686a9",
+        "date": "2023-08-28T09:32:41.532Z",
+        "time": "2023-08-28T08:27:14.722Z",
+        "guest_count": 18441,
+        "created_at": "2023-08-27T13:13:49.460Z",
+        "updated_at": "2023-08-28T07:28:30.426Z",
+        "table_id": "ee52f423-5e9f-4a7a-b4de-842ee3f6a698",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a9dc6fec-4405-4b89-89c8-4579e547f4d8",
+        "date": "2023-08-27T14:04:10.804Z",
+        "time": "2023-08-28T02:53:25.104Z",
+        "guest_count": 86463,
+        "created_at": "2023-08-28T05:12:57.807Z",
+        "updated_at": "2023-08-28T05:12:04.557Z",
+        "table_id": "7ffb9d18-524c-4f99-9c44-59418dd9bcd2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "75cb9a7f-f3bf-431d-ac8f-d3d3aba1a4dd",
+        "date": "2023-08-28T03:52:43.427Z",
+        "time": "2023-08-28T02:31:45.875Z",
+        "guest_count": 57840,
+        "created_at": "2023-08-28T00:12:06.308Z",
+        "updated_at": "2023-08-27T21:59:00.353Z",
+        "table_id": "1f7170ad-9945-45f7-afd5-5761660d5cea",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "menu": [
+      {
+        "id": "64ae20ed-b6dd-4d2a-85c9-629d3ea741b9",
+        "name": "Margherita Pizza",
+        "price": 77761,
+        "ingredients": "Tomatoes, mozzarella, basil",
+        "created_at": "2023-08-27T15:46:01.335Z",
+        "updated_at": "2023-08-28T12:16:10.063Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "e8c6467e-ee9e-45ec-a26c-2d9da2f4a33b",
+        "name": "Chicken Enchiladas",
+        "price": 7822,
+        "ingredients": "Chicken, tortillas, cheese",
+        "created_at": "2023-08-27T23:49:10.752Z",
+        "updated_at": "2023-08-28T05:04:06.858Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "ca85323e-e32b-47de-a33c-99a5da4b0836",
+        "name": "Filet Mignon",
+        "price": 17702,
+        "ingredients": "Beef, mashed potatoes, asparagus",
+        "created_at": "2023-08-27T23:09:09.260Z",
+        "updated_at": "2023-08-27T15:03:40.905Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "f992b231-8a9e-4948-892e-11b58dab27e1",
+        "name": "Spaghetti Carbonara",
+        "price": 38247,
+        "ingredients": "Pasta, eggs, bacon",
+        "created_at": "2023-08-28T05:04:55.949Z",
+        "updated_at": "2023-08-27T17:54:45.585Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "cf71fafd-3091-4b7d-9bd6-f8c63e83935d",
+        "name": "Sushi Platter",
+        "price": 98000,
+        "ingredients": "Various types of sushi",
+        "created_at": "2023-08-27T18:36:47.395Z",
+        "updated_at": "2023-08-28T06:14:38.338Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f56c7fc9-f0ed-4e54-a07e-6dfb06242aec",
+        "email": "Kyra2@gmail.com",
+        "firstName": "Quinn",
+        "lastName": "Leannon",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/202.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "40f06e31-a476-4fcc-8af7-e298c9ab035e",
+        "email": "Velva.Koss2@gmail.com",
+        "firstName": "Abraham",
+        "lastName": "Raynor",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/308.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8568ec4c-27a1-4a4d-87fd-81f21832d216",
+        "email": "Israel_Von39@hotmail.com",
+        "firstName": "Cora",
+        "lastName": "Johns",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/62383378",
+        "tenantId": null
+      },
+      {
+        "reference": "ca2e996b-0e97-4948-a99c-0f77b9af5e18",
+        "email": "Pedro.Sporer@yahoo.com",
+        "firstName": "Leta",
+        "lastName": "Harber-Heller",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/977.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a4f9a415-bab6-4bfb-904e-f0329589bab1",
+        "email": "Dan.Sawayn84@yahoo.com",
+        "firstName": "Shanon",
+        "lastName": "O'Connell",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/404.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "table": [
+      {
+        "id": "8340f4fa-10d1-4d79-ba46-7721c4f51e3d",
+        "number": 20480,
+        "capacity": 12106,
+        "status": "Occupied",
+        "created_at": "2023-08-27T15:52:08.503Z",
+        "updated_at": "2023-08-27T16:24:21.657Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "b4fe636a-c4c3-4d95-b758-c2a0e710dcb3",
+        "number": 67447,
+        "capacity": 74804,
+        "status": "Available",
+        "created_at": "2023-08-28T09:32:10.810Z",
+        "updated_at": "2023-08-27T20:26:57.307Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "46aa68b5-a37f-49d0-be7e-93a1d68a65d8",
+        "number": 25010,
+        "capacity": 9469,
+        "status": "Reserved",
+        "created_at": "2023-08-27T21:30:58.730Z",
+        "updated_at": "2023-08-28T06:30:18.181Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "c911d358-7c56-40c2-ba84-e50a5a7f2639",
+        "number": 16256,
+        "capacity": 93996,
+        "status": "Cleaning",
+        "created_at": "2023-08-28T04:46:24.534Z",
+        "updated_at": "2023-08-28T00:06:22.430Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "1c3496b9-6862-4d38-8baf-382c1b9fd276",
+        "number": 26680,
+        "capacity": 73078,
+        "status": "Out of Order",
+        "created_at": "2023-08-27T18:40:44.461Z",
+        "updated_at": "2023-08-28T08:48:55.279Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "fe46410e-396b-4533-8f83-8eb6eb295a0c",
+        "date": "2023-08-28T06:16:06.939Z",
+        "time": "2023-08-28T11:04:14.122Z",
+        "guest_count": 89305,
+        "created_at": "2023-08-28T09:56:08.831Z",
+        "updated_at": "2023-08-28T00:23:34.342Z",
+        "table_id": "1c3496b9-6862-4d38-8baf-382c1b9fd276",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7ec59a49-b4a4-4a21-b26d-ee4a9a98986b",
+        "date": "2023-08-28T03:38:42.219Z",
+        "time": "2023-08-28T04:10:13.108Z",
+        "guest_count": 30806,
+        "created_at": "2023-08-27T13:22:05.408Z",
+        "updated_at": "2023-08-27T13:28:49.932Z",
+        "table_id": "8340f4fa-10d1-4d79-ba46-7721c4f51e3d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "39bb7694-0538-4d72-ace3-ae9ddcd9982e",
+        "date": "2023-08-27T22:07:16.590Z",
+        "time": "2023-08-28T06:51:50.424Z",
+        "guest_count": 62724,
+        "created_at": "2023-08-27T19:04:41.106Z",
+        "updated_at": "2023-08-28T06:54:50.257Z",
+        "table_id": "c911d358-7c56-40c2-ba84-e50a5a7f2639",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f0fa6bc0-de14-4fea-98c6-ccd341836361",
+        "date": "2023-08-27T13:47:29.898Z",
+        "time": "2023-08-27T12:45:54.741Z",
+        "guest_count": 37721,
+        "created_at": "2023-08-27T23:28:25.126Z",
+        "updated_at": "2023-08-27T23:37:33.931Z",
+        "table_id": "b4fe636a-c4c3-4d95-b758-c2a0e710dcb3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6e8a8fd1-ce6f-4fef-888d-2c184a61bd07",
+        "date": "2023-08-28T08:31:08.358Z",
+        "time": "2023-08-28T03:33:08.303Z",
+        "guest_count": 95527,
+        "created_at": "2023-08-28T12:19:14.337Z",
+        "updated_at": "2023-08-28T04:47:44.803Z",
+        "table_id": "b4fe636a-c4c3-4d95-b758-c2a0e710dcb3",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "menu": [
+      {
+        "id": "ef0264c1-ff51-4e2e-9e09-96ff3a15d9b7",
+        "name": "Margherita Pizza",
+        "price": 3079,
+        "ingredients": "Tomato, mozzarella, basil",
+        "created_at": "2023-08-27T14:13:01.088Z",
+        "updated_at": "2023-08-28T05:14:27.922Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "93483a32-9d0e-4c3f-b47a-ebe8f4071bd2",
+        "name": "Chicken Enchiladas",
+        "price": 61691,
+        "ingredients": "Chicken, cheese, tortillas",
+        "created_at": "2023-08-27T19:54:08.213Z",
+        "updated_at": "2023-08-27T16:09:19.896Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "5d8b838a-2233-4198-bff5-691b8fe51ddd",
+        "name": "Spicy Tuna Roll",
+        "price": 42529,
+        "ingredients": "Tuna, rice, seaweed",
+        "created_at": "2023-08-27T23:49:37.254Z",
+        "updated_at": "2023-08-27T20:43:43.568Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "c147dcde-82be-42b6-a65f-96c4fb6a61b8",
+        "name": "Cheeseburger",
+        "price": 83386,
+        "ingredients": "Beef patty, cheese, bun",
+        "created_at": "2023-08-27T13:50:01.925Z",
+        "updated_at": "2023-08-28T03:03:35.908Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "fe7287b0-3c96-4fac-95bb-b14479a06003",
+        "name": "Escargots de Bourgogne",
+        "price": 35710,
+        "ingredients": "Snails, garlic, butter",
+        "created_at": "2023-08-28T11:53:08.026Z",
+        "updated_at": "2023-08-28T04:02:36.945Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "19cf8a5a-4969-424a-acf4-e9bb9ead4246",
+        "email": "David.Bogisich@yahoo.com",
+        "firstName": "Kallie",
+        "lastName": "Koepp",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/66146353",
+        "tenantId": null
+      },
+      {
+        "reference": "7cc53c93-d003-4396-bbc8-bc82c6abff97",
+        "email": "Evan.Heidenreich55@yahoo.com",
+        "firstName": "Nia",
+        "lastName": "Grant",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87139088",
+        "tenantId": null
+      },
+      {
+        "reference": "7ba423ed-f74b-4b96-abdb-70320c351772",
+        "email": "Norene.Leffler@gmail.com",
+        "firstName": "Erik",
+        "lastName": "Schaden",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/248.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b74f1430-018d-47b4-9fdc-49f0f3a96d4c",
+        "email": "Evan55@yahoo.com",
+        "firstName": "Vivian",
+        "lastName": "Kuvalis",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/130.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c13a9439-000e-402e-a7d0-741d74f0a6f6",
+        "email": "Eva.Leuschke60@hotmail.com",
+        "firstName": "Elroy",
+        "lastName": "Considine-Watsica",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/96583829",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "table": [
+      {
+        "id": "9108e22a-6c5d-4cd8-9e9d-b018d60a23bb",
+        "number": 6188,
+        "capacity": 12793,
+        "status": "Available",
+        "created_at": "2023-08-28T00:01:20.397Z",
+        "updated_at": "2023-08-28T06:57:30.272Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "28843c7b-6a8e-449f-9ae5-86380389925f",
+        "number": 19710,
+        "capacity": 75322,
+        "status": "Occupied",
+        "created_at": "2023-08-28T11:47:53.193Z",
+        "updated_at": "2023-08-28T07:48:35.515Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "1c1fdd92-1a25-482d-a5c7-d2bb332b1cb8",
+        "number": 13153,
+        "capacity": 25448,
+        "status": "Reserved",
+        "created_at": "2023-08-27T21:11:33.658Z",
+        "updated_at": "2023-08-28T09:47:36.913Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "694ae134-2e53-4c1f-9983-cd69f47117f7",
+        "number": 58683,
+        "capacity": 26285,
+        "status": "Out of Service",
+        "created_at": "2023-08-28T00:15:57.948Z",
+        "updated_at": "2023-08-28T10:14:02.533Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "6c63856a-17fe-4283-9329-3dc437930d32",
+        "number": 68087,
+        "capacity": 95112,
+        "status": "Cleaning in Progress",
+        "created_at": "2023-08-28T10:08:18.340Z",
+        "updated_at": "2023-08-28T00:37:55.924Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "9a19ec15-596e-41e3-999b-eaa6fd21708c",
+        "date": "2023-08-28T08:29:32.523Z",
+        "time": "2023-08-27T17:17:20.067Z",
+        "guest_count": 96127,
+        "created_at": "2023-08-28T10:16:53.923Z",
+        "updated_at": "2023-08-27T20:48:41.273Z",
+        "table_id": "6c63856a-17fe-4283-9329-3dc437930d32",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e2d7dff9-0dee-44a8-a113-83df9b98009a",
+        "date": "2023-08-27T16:27:56.440Z",
+        "time": "2023-08-28T04:39:50.765Z",
+        "guest_count": 7756,
+        "created_at": "2023-08-28T10:14:05.136Z",
+        "updated_at": "2023-08-28T09:12:34.505Z",
+        "table_id": "9108e22a-6c5d-4cd8-9e9d-b018d60a23bb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "181a1908-7e48-4a68-a3d0-b1c720ec50bf",
+        "date": "2023-08-28T08:41:30.531Z",
+        "time": "2023-08-28T02:12:46.952Z",
+        "guest_count": 76198,
+        "created_at": "2023-08-28T04:01:05.382Z",
+        "updated_at": "2023-08-28T04:14:49.003Z",
+        "table_id": "28843c7b-6a8e-449f-9ae5-86380389925f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8d33e87f-cb49-4fc8-b65f-b69c37594c6d",
+        "date": "2023-08-28T06:09:13.806Z",
+        "time": "2023-08-27T20:01:14.558Z",
+        "guest_count": 53340,
+        "created_at": "2023-08-28T02:26:17.623Z",
+        "updated_at": "2023-08-27T23:17:39.718Z",
+        "table_id": "28843c7b-6a8e-449f-9ae5-86380389925f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8a6aa623-4ad7-469d-a884-2f18bc2cf44e",
+        "date": "2023-08-28T02:02:42.003Z",
+        "time": "2023-08-28T09:03:30.073Z",
+        "guest_count": 86619,
+        "created_at": "2023-08-28T08:34:52.872Z",
+        "updated_at": "2023-08-28T07:26:03.099Z",
+        "table_id": "6c63856a-17fe-4283-9329-3dc437930d32",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "menu": [
+      {
+        "id": "9b201b5e-d211-436e-a860-99fe09e9daf0",
+        "name": "Margherita Pizza",
+        "price": 69645,
+        "ingredients": "Tomatoes, mozzarella, basil",
+        "created_at": "2023-08-27T22:44:51.811Z",
+        "updated_at": "2023-08-27T14:59:47.382Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "0b3ccdff-0486-4e9b-9737-af4655b29bb4",
+        "name": "Grilled Salmon",
+        "price": 92017,
+        "ingredients": "Fresh salmon, lemon, dill",
+        "created_at": "2023-08-28T05:05:27.584Z",
+        "updated_at": "2023-08-28T11:58:59.600Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "b324c17d-e354-49f5-8511-57526d7e02bc",
+        "name": "Spaghetti Bolognese",
+        "price": 8338,
+        "ingredients": "Ground beef, tomatoes, onions",
+        "created_at": "2023-08-27T18:50:33.898Z",
+        "updated_at": "2023-08-27T12:44:41.857Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "f4185839-7747-4fc4-b0ec-1300f7f2aaa6",
+        "name": "Vegan Buddha Bowl",
+        "price": 28049,
+        "ingredients": "Quinoa, avocado, mixed greens",
+        "created_at": "2023-08-27T22:02:23.469Z",
+        "updated_at": "2023-08-28T07:11:00.442Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "86f0a0cb-4b4a-4832-bc35-0faa06b8a646",
+        "name": "Filet Mignon",
+        "price": 52415,
+        "ingredients": "Beef tenderloin, red wine reduction, mashed potatoes",
+        "created_at": "2023-08-28T03:15:36.851Z",
+        "updated_at": "2023-08-28T10:14:53.678Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8574ef4a-8586-4757-b766-298bb52c24bb",
+        "email": "Orin_Nikolaus@hotmail.com",
+        "firstName": "Tristin",
+        "lastName": "Swift",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42202376",
+        "tenantId": null
+      },
+      {
+        "reference": "6e2d0a39-3026-4b0a-a015-10da3fde5e53",
+        "email": "Bessie.Greenfelder35@gmail.com",
+        "firstName": "Emory",
+        "lastName": "Gleichner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/241.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c9ddafbe-d4fd-4daa-a501-a89959d9e120",
+        "email": "Damien.Hoppe@gmail.com",
+        "firstName": "Vickie",
+        "lastName": "Ortiz",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/925.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6608846a-0872-4bef-95a9-264956ae95a0",
+        "email": "Georgette.Cassin69@gmail.com",
+        "firstName": "Albert",
+        "lastName": "Graham",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1167.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ed72c763-c74c-4559-9a3b-782febac41a1",
+        "email": "Jacinthe_Rice@hotmail.com",
+        "firstName": "Vito",
+        "lastName": "Herman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/3941128",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "table": [
+      {
+        "id": "4ce9756f-9ed3-4d16-b2c4-a125ab6ec54f",
+        "number": 69089,
+        "capacity": 67346,
+        "status": "Available",
+        "created_at": "2023-08-27T23:37:29.389Z",
+        "updated_at": "2023-08-27T17:06:08.634Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "0dd298d3-7b91-4de2-a07f-054d6bddfde5",
+        "number": 47712,
+        "capacity": 91713,
+        "status": "Occupied",
+        "created_at": "2023-08-27T12:51:39.614Z",
+        "updated_at": "2023-08-27T12:54:34.719Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "63b70ed9-c46e-420f-830e-83eb9b3f693a",
+        "number": 68426,
+        "capacity": 7513,
+        "status": "Reserved",
+        "created_at": "2023-08-28T09:59:49.162Z",
+        "updated_at": "2023-08-28T05:21:12.940Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "f525a72d-ea41-4f14-b5f3-cdfd747ad4e9",
+        "number": 89805,
+        "capacity": 55654,
+        "status": "Out of Service",
+        "created_at": "2023-08-27T20:22:34.383Z",
+        "updated_at": "2023-08-28T05:47:15.707Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "fcd4c777-a70a-4ba8-a405-ba0d3931f5ac",
+        "number": 89182,
+        "capacity": 285,
+        "status": "Cleaning in Progress",
+        "created_at": "2023-08-27T19:18:09.437Z",
+        "updated_at": "2023-08-27T22:54:32.458Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "625c781d-e925-428e-a3e7-d4784404a25f",
+        "date": "2023-08-28T12:02:20.231Z",
+        "time": "2023-08-27T15:23:49.253Z",
+        "guest_count": 53603,
+        "created_at": "2023-08-28T02:26:20.508Z",
+        "updated_at": "2023-08-27T13:01:47.892Z",
+        "table_id": "4ce9756f-9ed3-4d16-b2c4-a125ab6ec54f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "044470f1-fc34-40f3-9f8a-bd842f5a5d60",
+        "date": "2023-08-27T21:03:19.342Z",
+        "time": "2023-08-28T11:14:28.131Z",
+        "guest_count": 80783,
+        "created_at": "2023-08-28T05:51:24.773Z",
+        "updated_at": "2023-08-28T06:41:59.293Z",
+        "table_id": "0dd298d3-7b91-4de2-a07f-054d6bddfde5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "79eb770a-1969-4d0b-86bf-6db5cf376214",
+        "date": "2023-08-27T22:00:33.622Z",
+        "time": "2023-08-27T16:54:14.053Z",
+        "guest_count": 81501,
+        "created_at": "2023-08-28T04:59:52.444Z",
+        "updated_at": "2023-08-27T13:00:11.520Z",
+        "table_id": "f525a72d-ea41-4f14-b5f3-cdfd747ad4e9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5ea30fe4-b4db-4ee2-ac31-35ac0207cd75",
+        "date": "2023-08-28T04:06:23.884Z",
+        "time": "2023-08-27T23:36:30.245Z",
+        "guest_count": 69706,
+        "created_at": "2023-08-27T21:59:39.099Z",
+        "updated_at": "2023-08-27T17:13:38.775Z",
+        "table_id": "63b70ed9-c46e-420f-830e-83eb9b3f693a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c137389e-33c7-4e3e-ac96-ee38cfbbd724",
+        "date": "2023-08-27T23:22:31.296Z",
+        "time": "2023-08-28T03:06:44.179Z",
+        "guest_count": 54253,
+        "created_at": "2023-08-28T08:24:25.950Z",
+        "updated_at": "2023-08-27T22:59:32.391Z",
+        "table_id": "fcd4c777-a70a-4ba8-a405-ba0d3931f5ac",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "menu": [
+      {
+        "id": "3745c5ae-b0f0-41ee-be0e-c7fc4cd36bd8",
+        "name": "Spaghetti Carbonara",
+        "price": 7339,
+        "ingredients": "Pasta, eggs, bacon, Parmesan cheese",
+        "created_at": "2023-08-28T09:06:37.720Z",
+        "updated_at": "2023-08-28T03:39:26.320Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "3553e28b-109e-4848-8559-2376e9a2ad21",
+        "name": "Taco al Pastor",
+        "price": 78963,
+        "ingredients": "Marinated pork, pineapple, onions, cilantro",
+        "created_at": "2023-08-28T09:24:19.471Z",
+        "updated_at": "2023-08-28T03:13:47.527Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "238e8fe5-00e3-4e6f-a7e6-8e53421eba6b",
+        "name": "Sashimi Platter",
+        "price": 4378,
+        "ingredients": "Fresh raw fish, soy sauce, wasabi, ginger",
+        "created_at": "2023-08-27T17:31:48.454Z",
+        "updated_at": "2023-08-27T20:09:02.401Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "0d954be2-d71f-49e2-90bc-aa84846b4b83",
+        "name": "Cheeseburger Deluxe",
+        "price": 15190,
+        "ingredients": "Beef patty, cheddar cheese, lettuce, tomato",
+        "created_at": "2023-08-27T14:08:49.612Z",
+        "updated_at": "2023-08-28T00:27:30.882Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "0eed91fb-156d-4e5c-8d2f-e6b0d02f8b2a",
+        "name": "Escargots de Bourgogne",
+        "price": 17419,
+        "ingredients": "Snails, garlic butter, parsley, white wine",
+        "created_at": "2023-08-27T22:25:28.435Z",
+        "updated_at": "2023-08-28T09:38:23.657Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "aeed2b34-f8e7-4182-9a83-59b627293d89",
+        "email": "Blanche_Jacobson@gmail.com",
+        "firstName": "Dante",
+        "lastName": "Mayert",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/198.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cbac4930-25d7-4cfd-b97f-f9ca032b02a9",
+        "email": "Isai68@gmail.com",
+        "firstName": "Brock",
+        "lastName": "Bogisich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/648.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ce65f6b8-ae24-40cb-b3dd-8af3d72fec94",
+        "email": "Caroline58@yahoo.com",
+        "firstName": "Leila",
+        "lastName": "Hammes-Howell",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/310.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cd64b1c1-102a-4d78-96f1-ec79ff5f185c",
+        "email": "Nora77@yahoo.com",
+        "firstName": "Joannie",
+        "lastName": "Sanford",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/552.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4d8ced8b-d002-48f3-a425-ff5e8ecba111",
+        "email": "Randi_Ankunding31@hotmail.com",
+        "firstName": "Sherwood",
+        "lastName": "Williamson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50613290",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "table": [
+      {
+        "id": "8a7de669-8dcc-4477-bc4e-3daba1bf4d39",
+        "number": 79996,
+        "capacity": 63991,
+        "status": "Available",
+        "created_at": "2023-08-28T11:18:12.855Z",
+        "updated_at": "2023-08-27T21:06:28.909Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "f4239697-51e5-47a7-8725-ca5e7c40422d",
+        "number": 63244,
+        "capacity": 86433,
+        "status": "Occupied",
+        "created_at": "2023-08-27T18:05:10.419Z",
+        "updated_at": "2023-08-28T07:54:10.839Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "06c6018f-17c9-4d53-be29-39105baa9172",
+        "number": 99818,
+        "capacity": 90220,
+        "status": "Reserved",
+        "created_at": "2023-08-27T18:29:01.149Z",
+        "updated_at": "2023-08-28T04:23:58.771Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "eb1558ff-a821-4acf-b884-5a97281ce378",
+        "number": 49053,
+        "capacity": 95550,
+        "status": "Out of Service",
+        "created_at": "2023-08-28T10:54:57.454Z",
+        "updated_at": "2023-08-28T06:30:59.223Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "d487a34c-719b-487f-9629-ec86faf1fd32",
+        "number": 93026,
+        "capacity": 62124,
+        "status": "Cleaning in Progress",
+        "created_at": "2023-08-27T15:43:45.627Z",
+        "updated_at": "2023-08-27T13:31:22.423Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "36239e10-13e8-401f-80b5-95131366cf88",
+        "date": "2023-08-27T12:57:20.764Z",
+        "time": "2023-08-28T10:44:22.497Z",
+        "guest_count": 70546,
+        "created_at": "2023-08-28T08:41:31.421Z",
+        "updated_at": "2023-08-27T13:36:49.993Z",
+        "table_id": "8a7de669-8dcc-4477-bc4e-3daba1bf4d39",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7588e9d0-d1e6-4552-b8ec-a248fa344756",
+        "date": "2023-08-28T08:34:36.477Z",
+        "time": "2023-08-27T12:46:26.358Z",
+        "guest_count": 98206,
+        "created_at": "2023-08-27T22:47:28.373Z",
+        "updated_at": "2023-08-27T16:52:01.210Z",
+        "table_id": "8a7de669-8dcc-4477-bc4e-3daba1bf4d39",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "353ae311-160f-4494-a384-1e5d82fc0805",
+        "date": "2023-08-27T22:35:26.794Z",
+        "time": "2023-08-27T15:27:29.053Z",
+        "guest_count": 40947,
+        "created_at": "2023-08-27T20:07:33.928Z",
+        "updated_at": "2023-08-27T20:24:05.531Z",
+        "table_id": "8a7de669-8dcc-4477-bc4e-3daba1bf4d39",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a4edcb8f-6d3e-4865-89f5-7d079af996c7",
+        "date": "2023-08-27T20:57:55.308Z",
+        "time": "2023-08-28T04:17:04.428Z",
+        "guest_count": 70053,
+        "created_at": "2023-08-28T10:02:28.250Z",
+        "updated_at": "2023-08-27T21:09:22.171Z",
+        "table_id": "06c6018f-17c9-4d53-be29-39105baa9172",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "df67540a-6f5f-43e8-b201-3bb70c1426e1",
+        "date": "2023-08-27T19:09:46.248Z",
+        "time": "2023-08-28T04:16:13.024Z",
+        "guest_count": 32373,
+        "created_at": "2023-08-28T04:16:20.927Z",
+        "updated_at": "2023-08-28T09:14:54.619Z",
+        "table_id": "eb1558ff-a821-4acf-b884-5a97281ce378",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "menu": [
+      {
+        "id": "596c502f-8e05-4805-8546-2fdc0792b9f8",
+        "name": "Margherita Pizza",
+        "price": 78506,
+        "ingredients": "Tomato, mozzarella, basil",
+        "created_at": "2023-08-27T19:01:09.328Z",
+        "updated_at": "2023-08-28T06:20:46.370Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "a9172c0b-dce0-4e64-bdb9-beab7c248b85",
+        "name": "Chicken Alfredo",
+        "price": 56696,
+        "ingredients": "Chicken, cream sauce, pasta",
+        "created_at": "2023-08-28T11:15:04.976Z",
+        "updated_at": "2023-08-28T10:06:24.810Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "55842084-0466-4ca7-8e4f-08dcf070236f",
+        "name": "Beef Stir Fry",
+        "price": 10918,
+        "ingredients": "Beef, vegetables, soy sauce",
+        "created_at": "2023-08-27T18:21:59.288Z",
+        "updated_at": "2023-08-28T11:11:11.664Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "f78de2d4-f204-483f-81aa-7423f67076de",
+        "name": "Vegetable Curry",
+        "price": 59352,
+        "ingredients": "Mixed vegetables, curry sauce",
+        "created_at": "2023-08-27T14:46:35.301Z",
+        "updated_at": "2023-08-27T21:59:38.537Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "596578a3-4be4-4ff2-a85b-1e0cd6d910ab",
+        "name": "Grilled Salmon",
+        "price": 77292,
+        "ingredients": "Salmon, lemon, herbs",
+        "created_at": "2023-08-27T19:13:47.695Z",
+        "updated_at": "2023-08-27T18:42:51.831Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "379af27b-da23-4a26-a9f5-035ef796c045",
+        "email": "Stella_Wehner@hotmail.com",
+        "firstName": "Nathanael",
+        "lastName": "Bogan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1159.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4e8d86d1-015c-482c-8c70-e822f23c7d95",
+        "email": "Rene.Rempel@gmail.com",
+        "firstName": "Kellen",
+        "lastName": "Renner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1199.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a887c1dc-a280-4399-81b5-1968e2ef9a4c",
+        "email": "Toby28@hotmail.com",
+        "firstName": "Tiana",
+        "lastName": "Carroll",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/13063943",
+        "tenantId": null
+      },
+      {
+        "reference": "b2d37acc-26f9-4dc2-b1c9-67a453935516",
+        "email": "Peyton.Murazik39@yahoo.com",
+        "firstName": "Garnett",
+        "lastName": "Windler",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/125.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e148f903-dfb9-4038-81b2-b975bff8fcd9",
+        "email": "River_Spencer@yahoo.com",
+        "firstName": "Graciela",
+        "lastName": "Gutkowski-Hilll",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23018390",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "table": [
+      {
+        "id": "f0a23c3a-cb7a-471a-a4c4-830a666dad79",
+        "number": 59512,
+        "capacity": 57498,
+        "status": "Available",
+        "created_at": "2023-08-27T21:46:32.797Z",
+        "updated_at": "2023-08-28T09:26:39.822Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "c393dde0-4078-4464-aece-5e1fefdef102",
+        "number": 44127,
+        "capacity": 9587,
+        "status": "Occupied",
+        "created_at": "2023-08-28T02:37:36.546Z",
+        "updated_at": "2023-08-28T06:28:49.891Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "40609a3e-ef87-40ba-892e-56e8d7bc52fa",
+        "number": 2348,
+        "capacity": 12939,
+        "status": "Reserved",
+        "created_at": "2023-08-28T12:18:34.731Z",
+        "updated_at": "2023-08-28T11:52:11.611Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "7bfaf3e2-e3ec-473f-9944-1f8f714a4e19",
+        "number": 63678,
+        "capacity": 13076,
+        "status": "Out of Order",
+        "created_at": "2023-08-28T07:33:34.044Z",
+        "updated_at": "2023-08-28T05:43:15.986Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "316e1ec5-dd2d-42db-9c6b-5375ddce48d3",
+        "number": 59813,
+        "capacity": 74766,
+        "status": "Cleaning in Progress",
+        "created_at": "2023-08-27T13:26:15.086Z",
+        "updated_at": "2023-08-27T20:36:40.332Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "cce002db-ba6b-40eb-8c92-6425fbb05322",
+        "date": "2023-08-28T06:46:30.469Z",
+        "time": "2023-08-27T18:07:50.816Z",
+        "guest_count": 33432,
+        "created_at": "2023-08-27T22:14:02.027Z",
+        "updated_at": "2023-08-28T07:05:31.639Z",
+        "table_id": "7bfaf3e2-e3ec-473f-9944-1f8f714a4e19",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "73402ea4-f5a3-464d-b3ee-f3bb74ba6a31",
+        "date": "2023-08-27T23:07:43.897Z",
+        "time": "2023-08-27T21:58:43.856Z",
+        "guest_count": 30825,
+        "created_at": "2023-08-27T16:19:46.782Z",
+        "updated_at": "2023-08-28T12:21:55.602Z",
+        "table_id": "7bfaf3e2-e3ec-473f-9944-1f8f714a4e19",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ac94ed55-2a8a-4221-8ffe-19bec2b02d03",
+        "date": "2023-08-28T10:28:09.513Z",
+        "time": "2023-08-27T19:03:25.047Z",
+        "guest_count": 7073,
+        "created_at": "2023-08-27T20:39:37.691Z",
+        "updated_at": "2023-08-28T10:24:49.243Z",
+        "table_id": "f0a23c3a-cb7a-471a-a4c4-830a666dad79",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f309927b-4024-4151-a9de-d2c0223240ed",
+        "date": "2023-08-27T20:23:54.662Z",
+        "time": "2023-08-28T05:35:48.969Z",
+        "guest_count": 12160,
+        "created_at": "2023-08-27T14:45:25.737Z",
+        "updated_at": "2023-08-28T09:57:55.640Z",
+        "table_id": "7bfaf3e2-e3ec-473f-9944-1f8f714a4e19",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2832b8b9-7116-4b8e-8322-02cad0519da1",
+        "date": "2023-08-27T15:42:23.728Z",
+        "time": "2023-08-28T06:01:04.337Z",
+        "guest_count": 5903,
+        "created_at": "2023-08-27T17:15:05.647Z",
+        "updated_at": "2023-08-27T13:28:38.798Z",
+        "table_id": "f0a23c3a-cb7a-471a-a4c4-830a666dad79",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "menu": [
+      {
+        "id": "19eac1ff-cc78-45bc-a682-fc96f342a600",
+        "name": "Grilled Salmon",
+        "price": 77550,
+        "ingredients": "Fresh salmon fillet, lemon, dill",
+        "created_at": "2023-08-27T16:21:02.326Z",
+        "updated_at": "2023-08-28T06:24:51.093Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "b4c62b25-1d89-40d6-8966-cdf593e55719",
+        "name": "Pasta Carbonara",
+        "price": 88036,
+        "ingredients": "Pasta, eggs, bacon, parmesan cheese",
+        "created_at": "2023-08-27T14:15:43.225Z",
+        "updated_at": "2023-08-28T08:09:38.552Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "00a8249f-3011-4945-8322-459236575aa5",
+        "name": "Steak au Poivre",
+        "price": 19714,
+        "ingredients": "Beef steak, black peppercorns, brandy",
+        "created_at": "2023-08-27T19:08:28.400Z",
+        "updated_at": "2023-08-28T11:17:36.108Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "0f5b33f3-746b-481d-86cf-791de2ae3b2a",
+        "name": "Vegetable Stir-Fry",
+        "price": 95771,
+        "ingredients": "Assorted vegetables, soy sauce, ginger",
+        "created_at": "2023-08-27T17:28:22.799Z",
+        "updated_at": "2023-08-27T20:34:53.276Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "3a08caba-7ee3-4bbf-93cf-0af5c71791b3",
+        "name": "Chicken Parmesan",
+        "price": 96360,
+        "ingredients": "Chicken breast, marinara sauce, mozzarella cheese",
+        "created_at": "2023-08-28T11:03:48.502Z",
+        "updated_at": "2023-08-27T21:18:27.896Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "977d0921-d944-436b-ba66-6e9fe7799ead",
+        "email": "Kellie23@yahoo.com",
+        "firstName": "Cierra",
+        "lastName": "Miller",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68603814",
+        "tenantId": null
+      },
+      {
+        "reference": "94d399eb-be98-437d-91ad-47bca19ae061",
+        "email": "Stanford.Johnston@yahoo.com",
+        "firstName": "Jaden",
+        "lastName": "Aufderhar",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/908.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "dfd7fe7e-af33-4c7e-90ec-0ed11b906f43",
+        "email": "Lorine.Robel@hotmail.com",
+        "firstName": "Karley",
+        "lastName": "Bahringer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51487403",
+        "tenantId": null
+      },
+      {
+        "reference": "8eaf1d05-c2e0-4d25-b978-b1861f574dcc",
+        "email": "Lenny95@gmail.com",
+        "firstName": "Efren",
+        "lastName": "Braun",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/94062156",
+        "tenantId": null
+      },
+      {
+        "reference": "39d7c19e-7bc2-4859-a1c9-c1be16dd4ccb",
+        "email": "Aisha.Lowe38@yahoo.com",
+        "firstName": "Durward",
+        "lastName": "Terry",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/94.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "table": [
+      {
+        "id": "34aeaec5-2fa8-42e6-a9ed-3c475abe7fab",
+        "number": 81383,
+        "capacity": 18782,
+        "status": "Available",
+        "created_at": "2023-08-28T01:51:45.670Z",
+        "updated_at": "2023-08-27T19:17:02.923Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "5b8e8c5b-70f5-4d5e-aefb-57398070f6d8",
+        "number": 800,
+        "capacity": 34421,
+        "status": "Occupied",
+        "created_at": "2023-08-27T14:32:01.030Z",
+        "updated_at": "2023-08-28T08:34:33.320Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "5e80eafe-2987-478c-a306-3a4fe6c4e6d6",
+        "number": 91052,
+        "capacity": 88986,
+        "status": "Reserved",
+        "created_at": "2023-08-27T18:06:21.607Z",
+        "updated_at": "2023-08-27T21:14:30.790Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "a9c54d34-4087-45f6-8405-136edcf6a09c",
+        "number": 43757,
+        "capacity": 52856,
+        "status": "Out of Service",
+        "created_at": "2023-08-27T13:17:19.562Z",
+        "updated_at": "2023-08-28T03:27:25.444Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "b8ab5f32-5cf9-4e57-8628-f75bca5db8f3",
+        "number": 83418,
+        "capacity": 10456,
+        "status": "Cleaning in Progress",
+        "created_at": "2023-08-27T23:58:32.451Z",
+        "updated_at": "2023-08-27T16:26:42.568Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "f809635a-f652-48fd-99e7-633da1b231f6",
+        "date": "2023-08-27T19:12:36.361Z",
+        "time": "2023-08-27T16:51:06.106Z",
+        "guest_count": 52603,
+        "created_at": "2023-08-28T00:36:37.095Z",
+        "updated_at": "2023-08-27T18:25:59.341Z",
+        "table_id": "b8ab5f32-5cf9-4e57-8628-f75bca5db8f3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3a0fdbca-9972-4143-93c5-77a1a6013e8e",
+        "date": "2023-08-28T02:55:05.474Z",
+        "time": "2023-08-27T16:33:52.269Z",
+        "guest_count": 56588,
+        "created_at": "2023-08-27T15:46:28.258Z",
+        "updated_at": "2023-08-27T22:19:40.098Z",
+        "table_id": "a9c54d34-4087-45f6-8405-136edcf6a09c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d7037780-9c1f-4a9f-ae24-94b88bdf8b21",
+        "date": "2023-08-28T10:33:18.824Z",
+        "time": "2023-08-28T06:24:18.992Z",
+        "guest_count": 18922,
+        "created_at": "2023-08-27T17:29:18.440Z",
+        "updated_at": "2023-08-27T13:02:05.688Z",
+        "table_id": "5b8e8c5b-70f5-4d5e-aefb-57398070f6d8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "418a30d8-194d-4c6e-9fa5-bb082aabf00c",
+        "date": "2023-08-28T03:21:44.403Z",
+        "time": "2023-08-27T16:17:47.259Z",
+        "guest_count": 6410,
+        "created_at": "2023-08-28T08:22:19.915Z",
+        "updated_at": "2023-08-27T21:52:16.972Z",
+        "table_id": "5b8e8c5b-70f5-4d5e-aefb-57398070f6d8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6ec8406b-8e76-4177-a4ce-1e04492c8c68",
+        "date": "2023-08-27T20:45:06.456Z",
+        "time": "2023-08-28T07:01:30.678Z",
+        "guest_count": 65050,
+        "created_at": "2023-08-28T08:39:10.528Z",
+        "updated_at": "2023-08-28T09:26:49.280Z",
+        "table_id": "5b8e8c5b-70f5-4d5e-aefb-57398070f6d8",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "menu": [
+      {
+        "id": "3f601727-afe1-4117-9820-2411ac57275d",
+        "name": "Grilled Salmon",
+        "price": 32101,
+        "ingredients": "Fresh salmon, lemon, dill",
+        "created_at": "2023-08-28T05:43:54.006Z",
+        "updated_at": "2023-08-27T22:38:06.635Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "40774d43-855e-4f2d-9d12-24570db2b102",
+        "name": "Pasta Carbonara",
+        "price": 10171,
+        "ingredients": "Pasta, eggs, bacon, parmesan cheese",
+        "created_at": "2023-08-28T07:58:18.132Z",
+        "updated_at": "2023-08-28T04:12:13.492Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "4feedfab-b1fa-460c-a2f8-04f0b8cd3cdf",
+        "name": "Steak Frites",
+        "price": 97239,
+        "ingredients": "Grilled steak, french fries, aioli",
+        "created_at": "2023-08-28T04:13:19.192Z",
+        "updated_at": "2023-08-27T14:04:00.858Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "d8c166ff-89f5-48d1-9a67-0bc7a3254aa9",
+        "name": "Margherita Pizza",
+        "price": 67101,
+        "ingredients": "Tomato sauce, mozzarella cheese, basil",
+        "created_at": "2023-08-28T09:00:11.924Z",
+        "updated_at": "2023-08-28T09:34:04.345Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "5f29b6fd-54e6-4063-9b9f-afb5a370bb0f",
+        "name": "Chicken Tikka Masala",
+        "price": 97437,
+        "ingredients": "Chicken, yogurt, spices, tomato sauce",
+        "created_at": "2023-08-27T23:40:50.398Z",
+        "updated_at": "2023-08-28T00:30:53.698Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "60d1eda6-5920-4c87-a751-f06e9d0b2a28",
+        "email": "Zackery.VonRueden30@gmail.com",
+        "firstName": "Rebekah",
+        "lastName": "VonRueden",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/268.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "507ae000-cde8-41a9-969d-82c018048fc8",
+        "email": "Jesus.Dare@hotmail.com",
+        "firstName": "Lamar",
+        "lastName": "Klein",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26700879",
+        "tenantId": null
+      },
+      {
+        "reference": "9593abc7-5712-4bc4-af8e-12a56d345982",
+        "email": "Luella_Turcotte@yahoo.com",
+        "firstName": "Vaughn",
+        "lastName": "Cummings",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1102.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f4a2c8e5-962f-433a-8687-7ca557162949",
+        "email": "Dolly99@gmail.com",
+        "firstName": "Odell",
+        "lastName": "Considine",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/80047024",
+        "tenantId": null
+      },
+      {
+        "reference": "aa4bf262-308e-46ac-be81-c9f77d87038a",
+        "email": "Cleve_Mann20@gmail.com",
+        "firstName": "Bert",
+        "lastName": "Hayes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/61548784",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "table": [
+      {
+        "id": "dfd894c9-cad0-4d6d-a8cc-864d45fbfa55",
+        "number": 39568,
+        "capacity": 48180,
+        "status": "Available",
+        "created_at": "2023-08-28T01:54:23.011Z",
+        "updated_at": "2023-08-27T22:59:27.930Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "93db69ee-a9b0-4aa6-a961-0839cf1f267b",
+        "number": 78812,
+        "capacity": 24776,
+        "status": "Occupied",
+        "created_at": "2023-08-27T22:00:57.489Z",
+        "updated_at": "2023-08-28T03:40:25.207Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "03bc17a7-e95b-4690-b90e-aa10843aa4a7",
+        "number": 1230,
+        "capacity": 58595,
+        "status": "Reserved",
+        "created_at": "2023-08-28T05:23:51.312Z",
+        "updated_at": "2023-08-28T10:14:27.250Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "ad57ca0a-b86e-4e59-8a53-68e3b04c17e3",
+        "number": 38287,
+        "capacity": 50762,
+        "status": "Out of Order",
+        "created_at": "2023-08-28T10:16:06.699Z",
+        "updated_at": "2023-08-28T04:31:16.536Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "664fe850-e156-4378-9880-5c189bcdd002",
+        "number": 55754,
+        "capacity": 69816,
+        "status": "Cleaning in Progress",
+        "created_at": "2023-08-28T11:05:53.714Z",
+        "updated_at": "2023-08-27T20:14:03.052Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "fc047a93-cfef-4668-ac74-41bf71bcf03b",
+        "date": "2023-08-27T23:31:02.119Z",
+        "time": "2023-08-28T06:23:35.695Z",
+        "guest_count": 68476,
+        "created_at": "2023-08-27T15:49:20.269Z",
+        "updated_at": "2023-08-28T05:53:42.136Z",
+        "table_id": "93db69ee-a9b0-4aa6-a961-0839cf1f267b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "97e5a1ad-a3b2-48aa-ab82-a9e4983bfb0c",
+        "date": "2023-08-27T23:09:39.246Z",
+        "time": "2023-08-27T20:45:40.049Z",
+        "guest_count": 61838,
+        "created_at": "2023-08-28T00:42:13.960Z",
+        "updated_at": "2023-08-28T05:02:35.583Z",
+        "table_id": "ad57ca0a-b86e-4e59-8a53-68e3b04c17e3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4e7f6ddc-b771-44b4-a35e-9d819b23439f",
+        "date": "2023-08-28T09:30:15.323Z",
+        "time": "2023-08-28T00:07:17.645Z",
+        "guest_count": 56172,
+        "created_at": "2023-08-27T14:26:10.672Z",
+        "updated_at": "2023-08-27T20:30:29.830Z",
+        "table_id": "ad57ca0a-b86e-4e59-8a53-68e3b04c17e3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f034762a-b345-4252-a420-8c4a1c5808f9",
+        "date": "2023-08-27T21:29:10.228Z",
+        "time": "2023-08-28T02:16:24.128Z",
+        "guest_count": 17479,
+        "created_at": "2023-08-28T10:19:23.488Z",
+        "updated_at": "2023-08-28T10:47:13.199Z",
+        "table_id": "93db69ee-a9b0-4aa6-a961-0839cf1f267b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "61582d90-c832-476a-a2e4-ec2e5cb4092a",
+        "date": "2023-08-28T01:34:54.638Z",
+        "time": "2023-08-27T14:46:42.605Z",
+        "guest_count": 6703,
+        "created_at": "2023-08-28T01:58:36.791Z",
+        "updated_at": "2023-08-27T19:52:03.406Z",
+        "table_id": "03bc17a7-e95b-4690-b90e-aa10843aa4a7",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "menu": [
+      {
+        "id": "d65565bc-be45-4449-b185-385940aaf1dc",
+        "name": "Margherita Pizza",
+        "price": 99417,
+        "ingredients": "Tomatoes, mozzarella, basil",
+        "created_at": "2023-08-28T11:42:12.353Z",
+        "updated_at": "2023-08-28T07:58:18.187Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "eab30a9c-a4a6-4e58-9f7a-b081861806d8",
+        "name": "Chicken Alfredo",
+        "price": 76594,
+        "ingredients": "Grilled chicken, creamy alfredo sauce",
+        "created_at": "2023-08-27T19:35:07.057Z",
+        "updated_at": "2023-08-28T01:03:33.767Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "76f2f575-0155-4009-98d1-b77e56d0991d",
+        "name": "Sushi Platter",
+        "price": 71728,
+        "ingredients": "Fresh raw fish, rice, seaweed",
+        "created_at": "2023-08-28T01:55:38.159Z",
+        "updated_at": "2023-08-27T15:48:51.606Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "3f7c19d9-6725-4afe-aada-2ba3614608ff",
+        "name": "Beef Stir Fry",
+        "price": 362,
+        "ingredients": "Tender beef, mixed vegetables, soy sauce",
+        "created_at": "2023-08-27T16:04:48.462Z",
+        "updated_at": "2023-08-27T13:06:15.813Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "8f562ced-01f5-4340-b410-1685e7f01d40",
+        "name": "Lobster Bisque",
+        "price": 15242,
+        "ingredients": "Fresh lobster, cream, herbs",
+        "created_at": "2023-08-27T16:10:56.532Z",
+        "updated_at": "2023-08-28T03:19:25.500Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8dbd5893-f14b-4653-acf4-0f65ae6ed587",
+        "email": "Edwin.Kohler95@gmail.com",
+        "firstName": "Lesley",
+        "lastName": "Pollich",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1058.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1815a374-1b65-4974-9949-5de56448e744",
+        "email": "Ralph_Quigley59@hotmail.com",
+        "firstName": "Caesar",
+        "lastName": "Sanford",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86599143",
+        "tenantId": null
+      },
+      {
+        "reference": "5215b8f2-a72d-4671-88f5-67f98063192b",
+        "email": "Ahmed67@hotmail.com",
+        "firstName": "Beaulah",
+        "lastName": "O'Keefe",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/164.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7d1f31c2-c421-441f-b4a4-63f5272f7e46",
+        "email": "Lucie_Gibson83@gmail.com",
+        "firstName": "Marcella",
+        "lastName": "Corwin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/310.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8580d1ce-a113-47f8-a7f5-76482973695f",
+        "email": "Carmel.Kihn@yahoo.com",
+        "firstName": "Angelica",
+        "lastName": "Nolan",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/663.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "table": [
+      {
+        "id": "deb3c420-51e5-4201-bee0-1aa55c76d824",
+        "number": 56697,
+        "capacity": 82242,
+        "status": "Occupied",
+        "created_at": "2023-08-28T04:23:44.262Z",
+        "updated_at": "2023-08-28T08:12:15.866Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "6c98e526-0d5e-47cb-a752-a118fee54a9f",
+        "number": 44208,
+        "capacity": 5317,
+        "status": "Available",
+        "created_at": "2023-08-28T01:40:20.186Z",
+        "updated_at": "2023-08-28T09:17:26.139Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "d33fe0d7-728f-4a26-98f0-75156e4cfad1",
+        "number": 96030,
+        "capacity": 85772,
+        "status": "Reserved",
+        "created_at": "2023-08-28T05:49:09.375Z",
+        "updated_at": "2023-08-28T07:48:39.203Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "72037ab2-7300-47fc-acb9-a447a4009e86",
+        "number": 96506,
+        "capacity": 10899,
+        "status": "Out of Order",
+        "created_at": "2023-08-28T08:19:09.207Z",
+        "updated_at": "2023-08-28T12:01:07.930Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "ab8ef936-681a-4f64-93eb-437310a8c006",
+        "number": 17456,
+        "capacity": 27426,
+        "status": "Cleaning in Progress",
+        "created_at": "2023-08-28T11:09:34.626Z",
+        "updated_at": "2023-08-27T18:07:36.437Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "c6357433-8c51-4c57-8210-395d57a19a2d",
+        "date": "2023-08-28T06:39:03.510Z",
+        "time": "2023-08-28T09:44:06.427Z",
+        "guest_count": 31346,
+        "created_at": "2023-08-28T08:29:12.133Z",
+        "updated_at": "2023-08-28T08:26:38.327Z",
+        "table_id": "72037ab2-7300-47fc-acb9-a447a4009e86",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f76afa72-1355-4d91-ae75-dc5577832419",
+        "date": "2023-08-27T15:20:17.768Z",
+        "time": "2023-08-28T01:59:41.278Z",
+        "guest_count": 11831,
+        "created_at": "2023-08-27T19:00:30.498Z",
+        "updated_at": "2023-08-28T12:08:55.013Z",
+        "table_id": "72037ab2-7300-47fc-acb9-a447a4009e86",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8ed5274f-3faa-4f2f-bc42-4c4082ff282d",
+        "date": "2023-08-28T01:49:09.251Z",
+        "time": "2023-08-27T23:42:56.916Z",
+        "guest_count": 47936,
+        "created_at": "2023-08-28T00:58:21.081Z",
+        "updated_at": "2023-08-28T06:10:54.023Z",
+        "table_id": "deb3c420-51e5-4201-bee0-1aa55c76d824",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "969a84b0-5120-4c75-b8f1-e65dba67d981",
+        "date": "2023-08-28T06:08:14.087Z",
+        "time": "2023-08-28T01:37:35.958Z",
+        "guest_count": 91821,
+        "created_at": "2023-08-28T02:11:03.800Z",
+        "updated_at": "2023-08-27T22:16:57.081Z",
+        "table_id": "6c98e526-0d5e-47cb-a752-a118fee54a9f",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fe29ee0f-6ec4-4be5-80b4-03926a596fc6",
+        "date": "2023-08-28T01:07:18.787Z",
+        "time": "2023-08-27T13:08:03.810Z",
+        "guest_count": 9723,
+        "created_at": "2023-08-27T17:20:07.295Z",
+        "updated_at": "2023-08-27T14:05:47.596Z",
+        "table_id": "ab8ef936-681a-4f64-93eb-437310a8c006",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "menu": [
+      {
+        "id": "461b958a-dc53-4541-90b8-9f8e031dd130",
+        "name": "Margherita Pizza",
+        "price": 46864,
+        "ingredients": "Tomato, mozzarella, basil",
+        "created_at": "2023-08-27T12:47:04.448Z",
+        "updated_at": "2023-08-28T03:22:35.472Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "7bc66140-235a-42e8-b821-9c728c6cc8ef",
+        "name": "Sushi Platter",
+        "price": 60616,
+        "ingredients": "Fresh fish, rice, seaweed",
+        "created_at": "2023-08-28T09:42:02.111Z",
+        "updated_at": "2023-08-28T00:27:15.417Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "2f6ddcbb-a4ca-4da9-bf1f-5eceeeb8c424",
+        "name": "Cheeseburger",
+        "price": 60815,
+        "ingredients": "Beef patty, cheddar cheese, lettuce",
+        "created_at": "2023-08-28T03:48:55.995Z",
+        "updated_at": "2023-08-28T00:40:24.332Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "7c506677-3111-495c-acf5-e6ca518edd3c",
+        "name": "Tacos al Pastor",
+        "price": 36918,
+        "ingredients": "Marinated pork, pineapple, cilantro",
+        "created_at": "2023-08-27T14:07:35.502Z",
+        "updated_at": "2023-08-27T16:01:22.074Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "46ebad3d-06e9-48ae-a56b-7cfb9f71f8db",
+        "name": "Escargots",
+        "price": 97239,
+        "ingredients": "Snails, garlic butter, parsley",
+        "created_at": "2023-08-28T08:48:09.592Z",
+        "updated_at": "2023-08-27T22:42:10.675Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "0a38e072-7e66-4ad7-aadb-759a4d53788f",
+        "email": "Ansel_Doyle25@yahoo.com",
+        "firstName": "Kiana",
+        "lastName": "Rutherford",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/81979114",
+        "tenantId": null
+      },
+      {
+        "reference": "d4336c61-4f1a-405a-94df-8722bcaef5ed",
+        "email": "Vincent_Hessel85@gmail.com",
+        "firstName": "Hortense",
+        "lastName": "Nienow",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16593037",
+        "tenantId": null
+      },
+      {
+        "reference": "636b6154-50f3-4561-9e13-8c3bb54499e4",
+        "email": "Noemi_Moore22@hotmail.com",
+        "firstName": "Efrain",
+        "lastName": "Kuhn",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/73100826",
+        "tenantId": null
+      },
+      {
+        "reference": "4a0e0bc6-11dc-4c53-833b-37687ab7f3b1",
+        "email": "Bridgette.Okuneva@gmail.com",
+        "firstName": "Emanuel",
+        "lastName": "Streich",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/81526099",
+        "tenantId": null
+      },
+      {
+        "reference": "ae8d5b95-6de6-408b-9c37-472418d5ed7c",
+        "email": "Lonny.Hilpert@gmail.com",
+        "firstName": "Emile",
+        "lastName": "Moen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/60896250",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "table": [
+      {
+        "id": "9bc71f8b-8454-4c07-bcd0-6734f51f4628",
+        "number": 60806,
+        "capacity": 54860,
+        "status": "Occupied",
+        "created_at": "2023-08-27T17:35:52.144Z",
+        "updated_at": "2023-08-28T09:00:38.897Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "6d556024-089d-431e-8519-b910b2e28e33",
+        "number": 42221,
+        "capacity": 65509,
+        "status": "Available",
+        "created_at": "2023-08-28T08:08:21.463Z",
+        "updated_at": "2023-08-27T12:53:37.328Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "a10509ca-2d5b-4649-bb1b-4f215370a878",
+        "number": 13090,
+        "capacity": 7783,
+        "status": "Reserved",
+        "created_at": "2023-08-28T00:16:26.517Z",
+        "updated_at": "2023-08-27T20:28:59.137Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "ec7af523-0486-4a9f-afc7-1ddd98f55c18",
+        "number": 92584,
+        "capacity": 15915,
+        "status": "Out of Order",
+        "created_at": "2023-08-27T22:05:56.487Z",
+        "updated_at": "2023-08-28T05:13:55.651Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "43096ccd-b101-4383-95b4-776c5d2d83e5",
+        "number": 67240,
+        "capacity": 83170,
+        "status": "Cleaning in Progress",
+        "created_at": "2023-08-28T04:53:13.904Z",
+        "updated_at": "2023-08-27T23:00:45.322Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "reservation": [
+      {
+        "id": "e563033d-e27a-4e20-8ea4-4e072050d817",
+        "date": "2023-08-28T03:45:52.281Z",
+        "time": "2023-08-27T18:32:00.537Z",
+        "guest_count": 72299,
+        "created_at": "2023-08-27T17:34:30.469Z",
+        "updated_at": "2023-08-27T23:07:19.360Z",
+        "table_id": "6d556024-089d-431e-8519-b910b2e28e33",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aff2410b-2aed-47dd-b310-b520d5334994",
+        "date": "2023-08-27T22:32:20.985Z",
+        "time": "2023-08-27T20:54:15.796Z",
+        "guest_count": 72705,
+        "created_at": "2023-08-27T19:55:24.539Z",
+        "updated_at": "2023-08-27T21:05:01.887Z",
+        "table_id": "ec7af523-0486-4a9f-afc7-1ddd98f55c18",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7a2f46bf-ecdf-436c-a162-2e4c84002fe9",
+        "date": "2023-08-27T12:44:12.236Z",
+        "time": "2023-08-27T18:15:12.804Z",
+        "guest_count": 70803,
+        "created_at": "2023-08-28T12:18:42.416Z",
+        "updated_at": "2023-08-28T03:39:12.198Z",
+        "table_id": "9bc71f8b-8454-4c07-bcd0-6734f51f4628",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d247ea97-958c-4a43-829c-c37a322e5c25",
+        "date": "2023-08-27T22:10:24.389Z",
+        "time": "2023-08-27T23:58:09.480Z",
+        "guest_count": 69254,
+        "created_at": "2023-08-28T05:14:10.090Z",
+        "updated_at": "2023-08-27T21:19:17.557Z",
+        "table_id": "43096ccd-b101-4383-95b4-776c5d2d83e5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "547fe5c8-8658-40c7-8dc2-ada5632474b2",
+        "date": "2023-08-27T13:58:57.720Z",
+        "time": "2023-08-28T08:39:18.807Z",
+        "guest_count": 90508,
+        "created_at": "2023-08-28T07:59:57.931Z",
+        "updated_at": "2023-08-27T13:44:52.463Z",
+        "table_id": "a10509ca-2d5b-4649-bb1b-4f215370a878",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "menu": [
+      {
+        "id": "7d36ef3d-79dd-43ba-b88d-aea25335ec17",
+        "name": "Classic Burger",
+        "price": 86175,
+        "ingredients": "Beef patty, lettuce, tomato, onion, pickles",
+        "created_at": "2023-08-28T03:45:24.869Z",
+        "updated_at": "2023-08-28T07:55:08.188Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "8c217edf-c89d-4fe4-b4aa-b8c36df56f2b",
+        "name": "Pasta Primavera",
+        "price": 92727,
+        "ingredients": "Pasta, mixed vegetables, olive oil, garlic",
+        "created_at": "2023-08-27T22:53:40.433Z",
+        "updated_at": "2023-08-27T22:03:50.110Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "fdb17f06-ffdc-4fd0-8451-de4262a82968",
+        "name": "Grilled Salmon",
+        "price": 62946,
+        "ingredients": "Fresh salmon, lemon, dill, butter",
+        "created_at": "2023-08-28T05:51:46.340Z",
+        "updated_at": "2023-08-27T18:02:37.328Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "57dda796-0ebd-4c5f-a34a-f6c5073b9b04",
+        "name": "Margherita Pizza",
+        "price": 10301,
+        "ingredients": "Tomato sauce, mozzarella cheese, basil",
+        "created_at": "2023-08-27T22:24:39.008Z",
+        "updated_at": "2023-08-28T08:14:31.769Z",
+        "restaurant_id": "main_entity_pk"
+      },
+      {
+        "id": "d7577d4b-26c2-4ea6-957e-d220cb1a9484",
+        "name": "Chicken Caesar Salad",
+        "price": 73057,
+        "ingredients": "Grilled chicken, romaine lettuce, croutons, Caesar dressing",
+        "created_at": "2023-08-28T03:20:33.054Z",
+        "updated_at": "2023-08-28T11:38:06.667Z",
+        "restaurant_id": "main_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "9b7b85cf-91e4-4b84-98eb-d08e7a46234d",
+        "email": "Clemmie.Leffler61@gmail.com",
+        "firstName": "Nigel",
+        "lastName": "Treutel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1111.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e9019d9c-f012-4d1f-bf6a-7c34a597d68e",
+        "email": "Sidney_Abernathy65@hotmail.com",
+        "firstName": "Kayli",
+        "lastName": "Russel-Schaefer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16988364",
+        "tenantId": null
+      },
+      {
+        "reference": "338da7c4-3287-4837-b045-bdea1f6d6a61",
+        "email": "Ebony_OKeefe@gmail.com",
+        "firstName": "Odell",
+        "lastName": "Hansen",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/42619990",
+        "tenantId": null
+      },
+      {
+        "reference": "102c8763-0eba-4115-b475-5bf1d3e72fb0",
+        "email": "Carolyne_Ryan@hotmail.com",
+        "firstName": "Gwen",
+        "lastName": "Reichel",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/83992058",
+        "tenantId": null
+      },
+      {
+        "reference": "698d8183-ce04-452c-ad98-ea4872a88f9b",
+        "email": "Rebeca.Breitenberg@hotmail.com",
+        "firstName": "Dayna",
+        "lastName": "Ledner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/405.jpg",
+        "tenantId": null
+      }
+    ]
+  }
+]
